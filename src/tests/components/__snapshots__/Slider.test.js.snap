@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Search correctly 1`] = `
+<div
+  className="slider"
+>
+  <div
+    className="slider-wrapper"
+    style={
+      Object {
+        "transform": "translateX(0px)",
+        "transition": "transform ease-out 0.45s",
+      }
+    }
+  >
+    <Slide
+      image="test"
+      key="0"
+    />
+    <Slide
+      image="test"
+      key="1"
+    />
+    <Slide
+      image="test"
+      key="2"
+    />
+  </div>
+  <LeftArrow
+    goToPrevSlide={[Function]}
+  />
+  <RightArrow
+    goToNextSlide={[Function]}
+  />
+</div>
+`;

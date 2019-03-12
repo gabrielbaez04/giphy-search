@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render LeftArrow correctly 1`] = `
+<div
+  className="backArrow arrow"
+  onClick={[MockFunction]}
+>
+  <i
+    aria-hidden="true"
+    className="fa fa-arrow-left fa-2x"
+  />
+</div>
+`;

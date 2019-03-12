@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Search correctly 1`] = `
+<div
+  className="search"
+>
+  <input
+    name="term"
+    onChange={[Function]}
+    placeholder="Enter text to search for gifs!"
+  />
+</div>
+`;

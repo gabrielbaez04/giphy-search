@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render GifList correctly 1`] = `
+<div
+  className="gif-list"
+>
+  <Gif
+    gif={
+      Object {
+        "id": 1,
+        "images": Object {
+          "downsized_still": Object {
+            "url": "test.url.com",
+          },
+        },
+        "title": "test",
+      }
+    }
+    key="1"
+    onGifSelect={[Function]}
+  />
+  <Gif
+    gif={
+      Object {
+        "id": 2,
+        "images": Object {
+          "downsized_still": Object {
+            "url": "test.url.com",
+          },
+        },
+        "title": "test",
+      }
+    }
+    key="2"
+    onGifSelect={[Function]}
+  />
+  <Gif
+    gif={
+      Object {
+        "id": 3,
+        "images": Object {
+          "downsized_still": Object {
+            "url": "test.url.com",
+          },
+        },
+        "title": "test",
+      }
+    }
+    key="3"
+    onGifSelect={[Function]}
+  />
+</div>
+`;
