@@ -13,7 +13,7 @@ class App extends React.Component {
         modalIsOpen: false
     }
     handleTermChange = (term) => {
-        const url = `http://api.giphy.com/v1/gifs/search?q=${term.replace(/\s/g, '+')}&api_key=ST5AZBXisn7lRdJ9YCPwll3eMWw86YCQ`;
+        const url = `https://api.giphy.com/v1/gifs/search?q=${term.replace(/\s/g, '+')}&api_key=ST5AZBXisn7lRdJ9YCPwll3eMWw86YCQ`;
         const self = this;
         axios.get(url).then(function (response) {
             // handle success
